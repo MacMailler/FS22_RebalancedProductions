@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="63">
+    <author>MacMailler</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Faster Productions</en>
+        <ru>Быстрое Производство</ru>
+    </title>
+    <description>
+        <en>
+            <![CDATA[This mod changes:
+- Speed of slow productions
+- Expands storage of productions]]>
+		</en>
+        <ru>
+            <![CDATA[Этот мод меняет:
+- Скорость медленных производств
+- Расширяет хранилища производств]]>
+		</ru>
+	</description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true" />
+
+	<extraSourceFiles>
+		<sourceFile filename="FasterProductions.lua"/>
+	</extraSourceFiles>
+</modDesc>
