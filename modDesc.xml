@@ -3,25 +3,25 @@
     <author>MacMailler</author>
     <version>1.0.0.0</version>
     <title>
-        <en>Faster Productions</en>
-        <ru>Быстрое Производство</ru>
+        <en>Rebalanced Productions</en>
+        <ru>Ребаланс Производств</ru>
     </title>
     <description>
         <en>
-            <![CDATA[This mod changes:
-- Speed of slow productions
-- Expands storage of productions]]>
+            <![CDATA[Increased production cycles and production costs
+Disabled production slowdown (except greenhouses)
+Production storage have been expanded in proportion to their cycles]]>
 		</en>
         <ru>
-            <![CDATA[Этот мод меняет:
-- Скорость медленных производств
-- Расширяет хранилища производств]]>
+            <![CDATA[Увеличены циклы производств и стоимость производства
+Отключено замедление производств(кроме теплиц)
+Расширены хранилища производств пропорционально их циклам]]>
 		</ru>
 	</description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
 
 	<extraSourceFiles>
-		<sourceFile filename="FasterProductions.lua"/>
+		<sourceFile filename="RebalancedProductions.lua"/>
 	</extraSourceFiles>
 </modDesc>
